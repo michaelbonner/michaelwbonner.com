@@ -149,7 +149,7 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Redirects Wizard"
-              link="https://github.com/shekki25/redirects-wizard"
+              link="https://github.com/michaelbonner/redirects-wizard"
               bg="linear-gradient(to right, #009FFF 0%, #ec2F4B 100%)"
             >
               A tool to help find and address 404s, even before the site goes live. Built with Laravel and Vue.
@@ -192,7 +192,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Michael Bonner. <a href="https://github.com/shekki25/michaelwbonner.com">Github</a>.
+          &copy; 2018 by Michael Bonner. <a href="https://github.com/michaelbonner/michaelwbonner.com">Github</a>.
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4} />
