@@ -186,8 +186,11 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:michaelwbonner@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://www.linkedin.com/in/michaelbonner/">LinkedIn</a> &{' '}
+            Say{' '}
+            <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#119;&#098;&#111;&#110;&#110;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
+              Hi
+            </a>{' '}
+            or find me on other platforms: <a href="https://www.linkedin.com/in/michaelbonner/">LinkedIn</a> &{' '}
             <a href="https://www.instagram.com/mbonner4">Instagram</a>
           </ContactText>
         </Inner>
