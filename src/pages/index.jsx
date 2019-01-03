@@ -154,8 +154,12 @@ const Index = () => (
             >
               A tool to help find and address 404s, even before the site goes live. Built with Laravel and Vue.
             </ProjectCard>
-            <ProjectCard title="Your Project" link="#" bg="linear-gradient(to right, #b91d73 0%, #f953c6 100%)">
-              Whatever we build next can go up here.
+            <ProjectCard
+              title="Is It Down Checker"
+              link="https://github.com/michaelbonner/is-it-down"
+              bg="linear-gradient(to right, #b91d73 0%, #f953c6 100%)"
+            >
+              An app to keep track of which sites are up, and the SSL status of each. Built with Laravel.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
