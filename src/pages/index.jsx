@@ -172,11 +172,13 @@ const Index = () => (
           <Title>About</Title>
           <AboutHero>
             <Avatar src={avatar} alt="Michael Bonner" />
-            <AboutSub>I have over 15 years of development experience, and 5 years of agency experience.</AboutSub>
+            <AboutSub>
+              I have over 15 years of development experience, and 5 years of director level agency experience.
+            </AboutSub>
           </AboutHero>
           <AboutDesc>
             I know what works, what doesn't work, and why. I can use that knowledge to build you a site, mobile app, or
-            software that accomplishes exactly the goals you are trying to acomplish. I'll sit with you and your team,
+            software that accomplishes exactly the goals you are trying to accomplish. I'll sit with you and your team,
             we'll make a plan, and we'll stick to it.
           </AboutDesc>
         </Inner>
