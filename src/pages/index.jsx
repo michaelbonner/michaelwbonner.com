@@ -116,11 +116,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>Hi, I&apos;m Michael Bonner</BigTitle>
-          <Subtitle>
-            I build websites, apps, and software for people I like
-            <br />
-            (no exceptions).
-          </Subtitle>
+          <Subtitle>I build websites, apps, and web software</Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -133,6 +129,21 @@ const Index = () => (
         <Inner>
           <Title>Projects</Title>
           <ProjectsWrapper>
+            <ProjectCard
+              title="SMACK GRC"
+              link="https://smackgrc.com"
+              bg="linear-gradient(to right, #ffb81c 0%, #F0AE1B 100%)"
+            >
+              My friend Jeff Moore built some awesome software to help businesses manage their GRC needs. Go check it
+              out.
+            </ProjectCard>
+            <ProjectCard
+              title="Wasatch Covers"
+              link="https://wasatchcovers.com"
+              bg="linear-gradient(to right, #5AB948 0%, #5AB948 100%)"
+            >
+              Need a window well cover in Utah? Go buy a custom one from Wasatch Covers
+            </ProjectCard>
             <ProjectCard
               title="Quiznado"
               link="https://quiznado.com/"
@@ -178,8 +189,8 @@ const Index = () => (
           </AboutHero>
           <AboutDesc>
             I know what works, what doesn't work, and why. I can use that knowledge to build you a site, mobile app, or
-            software that accomplishes exactly the goals you are trying to accomplish. I'll sit with you and your team,
-            we'll make a plan, and we'll stick to it.
+            software that works for your needs. I'll sit with you and your team, we'll make a plan, and we'll build some
+            awesome stuff.
           </AboutDesc>
         </Inner>
       </Content>
@@ -201,7 +212,9 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Michael Bonner. <a href="https://github.com/michaelbonner/michaelwbonner.com">Github</a>.
+          <small>&copy;</small>
+          {new Date().getFullYear()} by Michael Bonner.{' '}
+          <a href="https://github.com/michaelbonner/michaelwbonner.com">Github</a>.
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4} />
