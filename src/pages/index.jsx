@@ -89,7 +89,7 @@ const AboutSub = styled.span`
 `;
 
 const AboutDesc = styled.p`
-  ${tw('text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify')};
+  ${tw('text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12')};
 `;
 
 const ContactText = styled.p`
@@ -180,17 +180,15 @@ const Index = () => (
       <Divider speed={0.1} offset={3} />
       <Content speed={0.4} offset={3}>
         <Inner>
-          <Title>About</Title>
+          <Title>About Me</Title>
           <AboutHero>
             <Avatar src={avatar} alt="Michael Bonner" />
-            <AboutSub>
-              I have over 15 years of development experience, and 5 years of director level agency experience.
-            </AboutSub>
+            <AboutSub>A web and software developer based in Salt Lake, UT.</AboutSub>
           </AboutHero>
           <AboutDesc>
-            I know what works, what doesn't work, and why. I can use that knowledge to build you a site, mobile app, or
-            software that works for your needs. I'll sit with you and your team, we'll make a plan, and we'll build some
-            awesome stuff.
+            Over 15 years of development experience, and 5 years of director level agency experience. I know what works,
+            what doesn't work, and why. I can use that knowledge to build you a site, mobile app, or software that works
+            for your needs. I'll sit with you and your team, we'll make a plan, and we'll build some awesome stuff.
           </AboutDesc>
         </Inner>
       </Content>
