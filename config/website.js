@@ -5,7 +5,7 @@ module.exports = {
 
   siteTitle: 'Michael Bonner Portfolio Site', // Navigation and Site Title
   siteTitleAlt: 'Michael Bonner', // Alternative Site title for SEO
-  siteUrl: 'https://michaelwbonner.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://michaelbonner.dev', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
   siteDescription: 'My public portfolio site',

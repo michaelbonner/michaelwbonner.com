@@ -1,4 +1,4 @@
-# michaelwbonner.com Public Portfolio Site
+# michaelbonner.dev Public Portfolio Site
 
 ## Getting Started
 
@@ -6,4 +6,4 @@
 2. Run `npm i`
 3. Run `gatsby develop`
 
-[Link to public site](https://michaelwbonner.com)
+[Link to public site](https://michaelbonner.dev)
